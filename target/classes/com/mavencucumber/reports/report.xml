@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.672113">
+<testcase classname="Test Suites For AdactinHotel" name="Verify Valid LogIn Details" time="7.672113">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;Hello k[]gandhi!&gt; but was:&lt;Hello k[k]gandhi!&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at com.adactin.testdefinition.AdacTestDefinition.user_Verify_The_Title_Hello_Username(AdacTestDefinition.java:52)&#13;&#10;&#9;at ✽.Then User Verify The Title Hello Username(Adactin.feature:9)&#13;&#10;"><![CDATA[Given User Launches The AdactinHotel Application............................passed
+When User Enters The Username...............................................passed
+And User Enters The Password................................................passed
+And User Clicks LogIn Button................................................passed
+Then User Verify The Title Hello Username...................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<Hello k[]gandhi!> but was:<Hello k[k]gandhi!>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.adactin.testdefinition.AdacTestDefinition.user_Verify_The_Title_Hello_Username(AdacTestDefinition.java:52)
+	at ✽.Then User Verify The Title Hello Username(Adactin.feature:9)
+]]></failure>
+</testcase>
+</testsuite>

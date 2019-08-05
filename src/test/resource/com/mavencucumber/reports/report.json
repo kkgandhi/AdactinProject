@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1565801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Valid LogIn Details",
+        "description": "",
+        "id": "test-suites-for-adactinhotel;verify-valid-login-details",
+        "after": [
+          {
+            "result": {
+              "duration": 987061390,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3331144569,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launches The AdactinHotel Application",
+            "match": {
+              "location": "AdacTestDefinition.user_Launches_The_AdactinHotel_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 927820202,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enters The Username",
+            "match": {
+              "location": "AdacTestDefinition.user_Enters_The_Username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 322597943,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters The Password",
+            "match": {
+              "location": "AdacTestDefinition.user_Enters_The_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1926964094,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks LogIn Button",
+            "match": {
+              "location": "AdacTestDefinition.user_Clicks_LogIn_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174958932,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cHello k[]gandhi!\u003e but was:\u003cHello k[k]gandhi!\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat com.adactin.testdefinition.AdacTestDefinition.user_Verify_The_Title_Hello_Username(AdacTestDefinition.java:52)\r\n\tat ✽.Then User Verify The Title Hello Username(Adactin.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User Verify The Title Hello Username",
+            "match": {
+              "location": "AdacTestDefinition.user_Verify_The_Title_Hello_Username()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@1"
+          }
+        ]
+      }
+    ],
+    "name": "Test Suites For AdactinHotel",
+    "description": "",
+    "id": "test-suites-for-adactinhotel",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
